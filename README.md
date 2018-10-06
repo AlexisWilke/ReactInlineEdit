@@ -10,7 +10,7 @@ Watch a [demo](http://htmlpreview.github.io/?https://github.com/kaivi/ReactInlin
 
 ### Installation
 
-`npm install react-edit-inline --save-dev`
+`npm install react-edit-inline2 --save-dev`
 
 ### Required props
 - `text`:`string` initial text
@@ -32,7 +32,7 @@ Watch a [demo](http://htmlpreview.github.io/?https://github.com/kaivi/ReactInlin
 ### Usage example
 ```javascript
 import React from 'react';
-import InlineEdit from 'react-edit-inline';
+import InlineEdit from 'react-edit-inline2';
 
 class MyParentComponent extends React.Component {
 

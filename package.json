@@ -1,13 +1,12 @@
 {
-  "name": "react-edit-inline",
-  "version": "1.0.8",
+  "name": "react-edit-inline2",
+  "version": "1.0.1",
   "description": "A simple inline text editor for React with ECMAScript 6 + JSX Harmony syntax",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -f index.js; babel --stage 0 index.jsx --out-file index.js && npm run build-demo",
-    "build-demo": "rm -f demo/index.js; webpack demo/index.jsx demo/index.js",
-    "prepublish": "npm run build"
+    "build-demo": "rm -f demo/index.js; webpack demo/index.jsx demo/index.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +36,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-1": "^6.3.13",
+    "prop-types": "^15.6.0",
     "webpack": "^1.12.11"
   }
 }
