@@ -7,7 +7,7 @@ I applied [Pull #41](https://github.com/kaivi/ReactInlineEdit/pull/41)
 so it would work with React 16.x.x without the need to do anything more.
 
 I uploaded that newer version on npm as `react-edit-inline2` so you can
-directly use that (see Installation below.)
+directly use that (see [Installation](#installation) below.)
 
 All I've done really is rename the package and upload it to npm. Also
 I don't really intend to support it in any way. I just wanted to use
